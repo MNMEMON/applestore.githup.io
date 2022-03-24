@@ -1,0 +1,966 @@
+nav{
+    background-color: black;
+}
+.navbar-brand{
+    color: red;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.sp{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: 'Domine', serif;
+}
+.left{
+    margin-top: 10%;
+}
+.left h1{
+    font-size: 50px;
+}
+.left p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.left button{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.left button:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.right img{
+    height: 300px;
+    width: 300px;
+    margin-top: 9%;
+    transition:0.4s ease-in-out;
+}
+.right img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.one h3{
+    margin-left: 24%;
+    color: green;
+}
+.one p{
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold 
+}
+.one2 h3{
+    margin-left: 39%;
+    color: navy;
+}
+.one2 p{
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold 
+}
+.one1 h3{
+    margin-left: 39%;
+    color: red;
+}
+.one1 p{
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold ;
+}
+.on {
+  margin-top: 9%;
+}
+.raw{
+    text-align: center;
+    font-family: 'Domine', serif;
+    color: navy;
+    font-weight: bold;
+    margin-top: -2%;
+    cursor: pointer;
+}
+.raw span{
+    text-align: center;
+    font-family: 'Domine', serif;
+    color: black;
+    font-weight: bold;
+    margin-top: -2%;
+    cursor: pointer;
+}
+.right1,.right2,.right3,.right4{
+    margin-top: 3%
+}
+.right1 h2{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.right1 p{
+    font-size: 30px;
+    color: navy;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.right1 i{
+    font-size: 15px;
+    color: gold;
+    font-weight: bold;
+    margin-top: -5%;
+}
+.right1 button{
+    color: white;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: orange;
+    transition: 0.9s ease-in-out;
+}
+.right2 h2{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.right2 p{
+    font-size: 30px;
+    color: navy;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.right2 i{
+    font-size: 15px;
+    color: gold;
+    font-weight: bold;
+    margin-top: -5%;
+}
+.right2 button{
+    color: white;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    background-color: orange;
+    margin-left: 10%;
+    transition: 0.9s ease-in-out;
+}
+.right3 h2{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.right3 p{
+    font-size: 30px;
+    color: navy;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.right3 i{
+    font-size: 15px;
+    color: gold;
+    font-weight: bold;
+    margin-top: -5%;
+}
+.right3 button{
+    color: white;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: orange;
+    transition: 0.9s ease-in-out;
+}
+.right4 h2{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.right4 p{
+    font-size: 30px;
+    color: navy;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.right4 i{
+    font-size: 15px;
+    color: gold;
+    font-weight: bold;
+    margin-top: -5%;
+}
+.right4 button{
+    color: white;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: orange;
+    transition: 0.9s ease-in-out;
+}
+.right4 button:hover,.right2 button:hover,.right3 button:hover,.right1 button:hover{
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    left: 6rem;
+}
+.right1:hover.icon a{
+    left: 20rem;
+}
+.icon a{
+    /* padding: 10px; */
+    text-decoration: none;
+    font-size: 25px;
+    height: 2.5rem;
+    width: 3rem;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: .5rem;
+    text-align: center;
+    /* margin-top: 2%; */
+    align-items: center;
+}
+.tow1{
+    margin-top: 5%;
+}
+.tow1 img{
+    border: 1px solid;
+    margin-top: 1%;
+}
+.tow2{
+    margin-top: 10%;
+}
+.tow3{
+    margin-top: 8%;
+}
+.tow3 h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    /* margin-left: 25%; */
+}
+.tow3 i{
+    font-size: 19px;
+    color: gold;
+}
+.tow3 p{
+    text-align: center;
+    
+    font-size: 20px;
+}
+.tow3 h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: navy;
+    /* margin-left: 35%; */
+}
+.tow3 button{
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    /* margin-left: 31%; */
+}
+.oppo{
+    margin-top: 5%;
+}
+.oppo img{
+    border: 1px solid;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+.oppo1{
+    margin-top: 10%;
+}
+.oppo2{
+    margin-top: 8%;
+}
+.oppo2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+   
+}
+.oppo2 i{
+    font-size: 19px;
+    color: gold;
+}
+.oppo2 p{
+    text-align: center;
+    /* align-items: center; */
+    font-size: 20px;
+}
+.oppo2 h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: navy;
+   
+}
+.oppo2 button{
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+.card h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    color: navy;
+}
+.card-body button{
+    text-align: center;
+    margin-left: 27%;
+    font-family: 'Domine', serif;
+    color: navy;
+}
+.card i{
+    color: red;
+    font-size: 15px;
+}
+.mo{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: navy;
+}
+.mes{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: navy;
+    margin-top: -3%;
+}
+.messi1{
+    margin-top: 4%;
+}
+.messi1 h1{
+    color: navy;
+    font-family:  'Lobster', cursive;
+    font-weight: bold;
+    margin-top: 4%;
+}
+.messi1 p{
+    font-weight: bold;
+    font-size: 20px;
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 5%;
+}
+footer{
+    background-color: black;
+    height: auto;
+    margin-top: 5%;
+}
+.messi img{
+    margin-top: -15%;
+}
+.three{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: 'Domine', serif;
+}
+.use{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: 'Domine', serif;
+}
+.use1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: 'Domine', serif;
+}
+.use2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: 'Domine', serif;
+}
+.four{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  'Lobster', cursive;
+}
+.four:hover{
+    color: white;
+    font-size: 20px;
+    font-style: italic; 
+}
+
+.index10{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  'Lobster', cursive;
+}
+.index11{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  'Lobster', cursive;
+    
+}
+.index11:hover{
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+}
+.index10:hover{
+    color: white;
+    font-size: 20px;
+    font-style: italic;  
+}
+#hm{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    color: yellow;
+    transition: 0.4s ease-in-out;
+}
+#hm1{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    color: palevioletred;
+    transition: 0.4s ease-in-out;
+}
+#hm2{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    color: red;
+    transition: 0.4s ease-in-out;
+}
+#hm3{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    color: cornflowerblue;
+    transition: 0.4s ease-in-out;
+}
+#hm1:hover{
+    background-color: palevioletred;
+    transform: rotate(360deg);
+    border-radius: 0%;
+    color: red;
+}
+#hm2:hover{
+    background-color: red;
+    transform: rotate(360deg);
+    border-radius: 0%;
+    color: white;
+}
+#hm3:hover{
+    background-color: blue;
+    transform: rotate(360deg);
+    border-radius: 0%;
+  
+}
+#hm:hover{
+    background-color: yellow;
+    transform: rotate(360deg);
+    border-radius: 0%;
+    color: white;
+}
+.bt2{
+    background-color: red;
+    color: wheat;
+}
+.bt1{
+    padding: 2px;
+    color: red;
+}
+/* <--!abouts us start--> */
+.con1{
+    margin-top: 5%;
+}
+.con1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:  'Lobster', cursive;
+    color: orange;
+}
+.con1 h3{
+    font-size: 30px;
+    margin-left: 3%;
+    color: navy
+}
+select{
+    margin-left: 3%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.con1 button{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.con1 h2{
+    margin-left: 3%;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    margin-top: 2%;
+    color: black;
+}
+.con1 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    margin-left: 3%;
+}
+.con img{
+    margin-top: 3%;
+}
+.co{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: navy;
+    text-align: center;
+    margin-top: 5%;
+}
+/* <--!abouts us card star--> */
+.card-body1 h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 15%; */
+}
+.tittle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    color: navy;
+}
+.bot{
+    text-align: center;
+    margin-left: 32%;
+    font-family: 'Domine', serif;
+    color: white;
+    background-color: orange;
+    font-size: 24px;
+}
+.card-body1 i{
+    color: gold;
+    font-size: 23px;
+    text-align: center;
+}
+ #hod{
+     font-size: 20px;
+     background-color: orange;
+     color: white;
+     font-weight: bold;
+     font-family: 'Domine', serif;
+ }
+ .mycounter1,.mycounter3,.mycounter2,.mycounter4{
+     margin-top: 5%;
+ }
+ .mycounter3 p{
+     height: 100px;
+     background-color: navy ;
+     width: 160px;
+     color: white;
+     font-weight: 40px;
+     border-radius: 20px;
+     font-weight: bold;
+    text-align: center;
+    border: 10px solid black;
+ }
+ 
+ .mycounter1 p{
+    height: 100px;
+    background-color: navy ;
+    width: 160px;
+    color: white;
+    font-weight: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid black;
+}
+.mycounter4 p{
+    height: 100px;
+    background-color: navy ;
+    width: 160px;
+    color: white;
+    font-weight: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid black;
+}
+.mycounter2 p{
+    height: 100px;
+    background-color:navy ;
+    width: 160px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+   
+    text-align: center;
+    border: 10px solid black;
+}
+/* <--contaxct start__> */
+label{
+    padding: 15px;
+}
+.radio{
+    margin-left: 8%; 
+}
+.form{
+    margin-top: 5%;
+}
+.form h1{
+    font-weight: bold;
+    margin-left: 30%;
+    color: navy;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.spen{
+    font-size: 20px;
+    color: navy;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.lab{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.lab1 button{
+    color: white;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 3px;
+    font-family: 'Domine', serif;
+}
+/* <--contaxct end__> */
+/* <abouts start--> */
+.abu{
+    margin-top: 5%;
+}
+.abu1{
+    margin-top: 6%;
+}
+.abu1 h1{
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: navy;
+}
+.abu1 p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    /* text-align: center; */
+    align-items: center;
+}
+.abu1 button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.news1 h1{
+    margin-left: 15%;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+    color: navy;
+}
+.news p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+}
+.news h2{
+    font-weight: bold;
+    color: navy;
+    font-family: 'Lobster', cursive;
+}
+.flip-box{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    perspective: 1000px;
+}
+.flip-box-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner{
+    transform: rotateY(180deg);
+}
+.imoo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,9.9)),;
+}
+.flip-box-front, .flip-box-back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-box-front{
+    background-color: #bbb;
+    color: black;
+}
+.flip-box-back {
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/w3.jpg");
+      color: white;
+      transform: rotateY(180deg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    
+    }
+    /* <--testimonila--> */
+    .moon{
+        /* height: 350px; */
+        /* width: 440px; */
+        background-color:black;
+        border-radius: 20px;
+        margin-left: 3%;
+        border: 3px solid navy;
+        margin-top: 8%;
+    }
+    .test{
+       background-image: url("../image/pas1.png");
+       height: 120px;
+       width: 120px;
+       background-size: 100% 100%;
+       border-radius: 50%;
+       margin-left: 38%;
+       margin-top: 10%;
+    }
+    .test1{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+    .test2{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+     .test3{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+     .test4{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+     .test5{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+     .test6{
+        background-image: url("../image/pas1.png");
+        height: 120px;
+        width: 120px;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 10%;
+     }
+    .moon h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Domine', serif;
+        margin-top: 9%;
+    }
+    .moon p{
+        color: white;
+        text-align: center;
+        align-items: center;
+        margin-left: 4%;
+    }
+    .moon i{
+        padding: 10px;
+    }
+    .moon i:hover{
+        transform: scale(1.4);
+    }
+    .login{
+        height: 500px;
+        width: 300px;
+        margin-top: 10%;
+        background-color: black;
+        margin-left: 40%;
+    }
+    
+    .lo1{
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 5px solid white;
+        /* width: 300px; */
+        /* margin-left: 5%; */
+    }
+    .login h2{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Domine', serif;
+        text-align: center;
+        color: white;
+    }
+    .bh1{
+        background-color: navy;
+        color: white;
+        text-align: center;
+        font-size: 21px;
+        width: 100px;
+        margin-top: 4%;
+        margin-left: 9%;
+        color: white;
+    }
+    .bh2{
+        background-color: navy;
+        color: white;
+        text-align: center;
+        font-size: 21px;
+        width: 100px;
+        margin-left: 5%;
+        color: white;
+       
+    }
+    .login h5{
+        font-size: 15px ;
+        margin-left: 50%;
+        color: white;
+    }
+    .login h6{
+        font-size: 20px ;
+        margin-left: 24%;
+        font-family: 'Domine', serif;
+        font-weight: bold;
+        margin-top: 3%;
+        color: white;
+    }
+    .bh3{
+        background-color: navy;
+        color: white;
+        font-size: 21px;
+        width: 100px;
+        /* margin-left: 5%; */
+        margin-top: 4%;
+        margin-left: 30%;
+    }
+    @media(max-width:500px)
+    {
+            div.oppo img
+           {
+               width:100px;
+               height: 100px;
+               /* margin-left: 120px; */
+           } 
+           .mool{
+               width: 200px;
+               height: 200px;
+               margin-left: 160px;
+               margin-top: -500px;
+           }
+           div .mycounter1{
+               margin-left: 80px;
+           }
+           div .mycounter2{
+            margin-left: 80px;
+        }
+        div .mycounter3{
+            margin-left: 80px;
+        }
+        div .mycounter4{
+            margin-left: 80px;
+        }
+       
+    }
+    
+    
